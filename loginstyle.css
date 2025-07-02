@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+.loginbox{
+    width: 80%;
+    background-color: rgb(148, 209, 235);
+    text-align: center;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+button{
+    background-color: rgb(43, 150, 226);
+    color: azure;
+    width: 200PX;
+    padding: 10PX;
+    margin: 10PX 0PX;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+textarea,input[TYPE=TEXT],input[TYPE=PASSWORD],input[type=number],input[type=email]{
+    width: 100%;
+    margin: 8PX 0PX;
+    padding: 12PX 20PX;
+    display: inline-block;
+    border: transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    text-align: center;
+}
+BUTTON:HOVER{
+    opacity: 0.5;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+label{
+    color: white;
+}
+.blk_label{
+    color: black;
+}
+select{
+    border: none;
+    border-radius: 5px;
+    
+}
