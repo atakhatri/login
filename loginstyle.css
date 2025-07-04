@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background: linear-gradient(black, blue, white);
+    height: 100%;
 }
 .main{
     display: flex;
