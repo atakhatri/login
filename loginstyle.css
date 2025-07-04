@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: linear-gradient(to bottom, black, blue, white);
+    background: linear-gradient(black, blue, white);
 }
 .main{
     display: flex;
